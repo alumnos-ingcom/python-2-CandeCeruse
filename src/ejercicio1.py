@@ -9,7 +9,7 @@
 Escribir una función que retorne True cuando un número entero es par
 y False cuando no lo sea, sin utilizar módulo. (%)
 """
-def es_entero(numero):
+def es_par(numero):
     """
     Esta funcion comprueba si el numero es entero.
     Devuleve true si lo es y False si no lo es.
@@ -30,8 +30,11 @@ def principal():
     (La entrada, la llamada al algoritmo y la salida)
     """
     numero = int(input("Ingrese numero entero: "))
-    respuesta = es_entero(numero)
-    print(respuesta)
+    respuesta = es_par(numero)
+    if respuesta:
+        print("Es par")
+    else:
+        print("No es par")
 
 if __name__ == "__main__":
     principal()
