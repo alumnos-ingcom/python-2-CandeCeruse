@@ -1,5 +1,5 @@
 ################
-# Nombre - @usuario_github
+# Candelaria Ceruse - @CandeCeruse
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
