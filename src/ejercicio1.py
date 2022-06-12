@@ -21,6 +21,7 @@ def es_par(numero):
         respuesta = True
     else:
         respuesta = False
+
     return respuesta
 
 
@@ -35,6 +36,7 @@ def principal():
         print("Es par")
     else:
         print("No es par")
+
 
 if __name__ == "__main__":
     principal()
