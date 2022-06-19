@@ -70,7 +70,7 @@ def promedia(cadena):
         sumados = sumados + cadena[posicion]
         limite -= 1
         posicion += 1
-    promedio = sumados / len(cadena)
+    promedio = float(sumados / len(cadena))
     return promedio
 
 def crea_tupla(maximo, minimo, promedio):
