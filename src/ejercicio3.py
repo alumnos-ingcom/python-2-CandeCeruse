@@ -19,7 +19,7 @@ def compara_cadenas(cadena_1, cadena_2):
     """
     superposicion = 0
     posicion = 0
-    if len(cadena_1) > len(cadena_2):
+    if len(cadena_1) >= len(cadena_2):
         limite = len(cadena_2)
     elif len(cadena_2) > len(cadena_1):
         limite = len(cadena_1)
