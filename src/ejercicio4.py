@@ -14,6 +14,9 @@ de Fibonacci. Siendo este número un entero positivo mayor a 2.
 """
 # Reemplazar por las funciones del ejercicio
 def fibonacci(limite):
+    while limite < 2:
+        print("El termino debe ser mayor que 2")
+        limite = int(input("Ingrese de nuevo: "))
     termino_anterior = 1
     termino_siguiente = 1
     while limite > 0:
@@ -29,15 +32,8 @@ def principal():
     (La entrada, la llamada al algoritmo y la salida)
     """
     limite = int(input("Ingrese termino de la sucesion que quiere averiguar: "))
-    if limite < 2:
-        print("El termino debe ser mayor que 2")
-        limite = int(input("Ingrese de nuevo: "))
-    else:
-        pass
     resultado = fibonacci(limite)
     print(f"Termino nro {limite} de la sucesion es {resultado}")
-        
-
 
 if __name__ == "__main__":
     principal()
