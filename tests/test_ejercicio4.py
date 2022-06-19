@@ -3,7 +3,7 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
-from practica.plantilla import principal
+from src.ejercicio4 import *
 
 """
 Describir aquí que es lo que se esta probando.
