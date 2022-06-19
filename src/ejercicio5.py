@@ -40,7 +40,10 @@ def determina_balance(cadena):
                     limite -= 1
                     posicion_apertura = posicion_cierre
                     posicion_cierre += 1
-                    resultado = True
+                    if corchete_apertura == corchete_cierre:
+                        resultado = True
+                    else:
+                        resultado = False
                 else:
                     resultado = False
                     break
