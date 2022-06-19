@@ -28,12 +28,10 @@ def traduce_a_unicode(texto, cantidad):
     unicode = []
     while limite > 0:
         caracter = ord(texto[i])
-        #print(caracter)
         caracter_encriptado = caracter + cantidad
         unicode.append(caracter_encriptado)
         limite -= 1
         i += 1
-    #print(salida.join(unicode))
     return unicode
 
 def unicode_a_encriptado(texto):
@@ -43,7 +41,6 @@ def unicode_a_encriptado(texto):
     salida = ""
     while limite > 0:
         caracter = chr(texto[i])
-        #print(caracter)
         encriptado.append(caracter)
         limite -= 1
         i += 1

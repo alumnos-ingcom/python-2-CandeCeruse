@@ -9,6 +9,8 @@
 Escribir una función que retorne True cuando un número entero es par
 y False cuando no lo sea, sin utilizar módulo. (%)
 """
+
+
 def es_par(numero):
     """
     Esta funcion comprueba si el numero es entero.
